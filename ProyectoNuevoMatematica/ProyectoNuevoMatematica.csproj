@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5FABAD06-E23A-4A67-AFED-9CB215ABE0FE}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProyectoNuevoMatematica</RootNamespace>
+    <AssemblyName>ProyectoNuevoMatematica</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icono.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Aprender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Aprender.Designer.cs">
+      <DependentUpon>Aprender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CArray.cs" />
+    <Compile Include="CProcess.cs" />
+    <Compile Include="CWalker.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE1.Designer.cs">
+      <DependentUpon>frmE1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE2.Designer.cs">
+      <DependentUpon>frmE2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmE3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmE3.Designer.cs">
+      <DependentUpon>frmE3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juegoCifras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegoCifras.Designer.cs">
+      <DependentUpon>juegoCifras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juegoLaberinto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegoLaberinto.Designer.cs">
+      <DependentUpon>juegoLaberinto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juegoOrdenarCifras.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegoOrdenarCifras.Designer.cs">
+      <DependentUpon>juegoOrdenarCifras.cs</DependentUpon>
+    </Compile>
+    <Compile Include="juegoTestNumerosNaturales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="juegoTestNumerosNaturales.Designer.cs">
+      <DependentUpon>juegoTestNumerosNaturales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Juega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Juega.Designer.cs">
+      <DependentUpon>Juega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEvaluacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEvaluacion.Designer.cs">
+      <DependentUpon>frmEvaluacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Aprender.resx">
+      <DependentUpon>Aprender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE1.resx">
+      <DependentUpon>frmE1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE2.resx">
+      <DependentUpon>frmE2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmE3.resx">
+      <DependentUpon>frmE3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegoCifras.resx">
+      <DependentUpon>juegoCifras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegoLaberinto.resx">
+      <DependentUpon>juegoLaberinto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegoOrdenarCifras.resx">
+      <DependentUpon>juegoOrdenarCifras.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="juegoTestNumerosNaturales.resx">
+      <DependentUpon>juegoTestNumerosNaturales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Juega.resx">
+      <DependentUpon>Juega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEvaluacion.resx">
+      <DependentUpon>frmEvaluacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CifrasNuméricas.ppsx" />
+    <None Include="Resources\Numeros_Naturales.ppsx" />
+    <None Include="Resources\Smartick-App-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingreso.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1486564399-close_81512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingreso1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bigstock-Flat-Round-School-Subjects-Ico-91418309_500px-17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_postgrado-545x472.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f2ea1ded4d037633f687ee389a571086-youtube-icon-logo-by-vexels.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\game_background_design_by_dizcreator-d56kuxn.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aprender-matematicas-juego-para-ninos-screenshot.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juegos-didacticos-de-matematicas-ninos.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\juegos-didacticos-de-matematicas-ninos1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo_3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63eec91c-473c-43d1-9de1-42a65119a9f1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63eec91c-473c-43d1-9de1-42a65119a9f11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inicio2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-back256_24856.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8757bc0b7c5e69d.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\big-cinema-screen-23594672.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\63eec91c-473c-43d1-9de1-42a65119a9f12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pantalla-del-cine-con-las-cortinas-y-los-asientos-rojos-34205986.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\go-back256_248561.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nnaturales.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mayor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suma.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\number-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.PowerPoint">
+      <Guid>{91493440-5A91-11CF-8700-00AA0060263B}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>11</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="XcpControlLib">
+      <Guid>{283C8576-0726-4DBC-9609-3F855162009A}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>1</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\evaluacion-3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\laberint.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laberinto\Laberinto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laberinto\Barco.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laberinto\Faro.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Laberinto\Puerto.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numero1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\numero10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Numero_100.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\decima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centesima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\centesima_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\milesima.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\play.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icono.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

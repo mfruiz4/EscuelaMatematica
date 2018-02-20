@@ -1,0 +1,3 @@
+"Para empezar aqui tienes tres opciones entre las cuales puedes escoger" +
+                "Jugar, Aprender y Comprobar tus conocimientos mediante una evaluacion"+
+                "Adelante, y diviertete mucho"
