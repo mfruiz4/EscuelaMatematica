@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoNuevoMatematica", "ProyectoNuevoMatematica\ProyectoNuevoMatematica.csproj", "{5FABAD06-E23A-4A67-AFED-9CB215ABE0FE}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Matematicas", "Instalador_Matematicas\Instalador_Matematicas.vdproj", "{93A59506-FBE5-4806-90DE-085E2AD6AFBC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{5FABAD06-E23A-4A67-AFED-9CB215ABE0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FABAD06-E23A-4A67-AFED-9CB215ABE0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FABAD06-E23A-4A67-AFED-9CB215ABE0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93A59506-FBE5-4806-90DE-085E2AD6AFBC}.Debug|Any CPU.ActiveCfg = Debug
+		{93A59506-FBE5-4806-90DE-085E2AD6AFBC}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
